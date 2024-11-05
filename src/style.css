@@ -1,0 +1,92 @@
+:root {
+  --clr-black-400: #111111;
+  --max-width: 1160px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: var(--clr-black-400);
+}
+
+.logo-wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1160px;
+  padding: 19px 0;
+}
+
+.logo {
+  width: 183px; /* Make sure the container takes full width */
+  
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1160px;
+}
+
+.disclaimer-text {
+  margin: 0 auto;
+  padding: 24px 0;
+  font-size: 12px;
+  text-align: center;
+  appearance: none;
+  color: #9E9FA4;
+  
+  & > a {
+    color: #9E9FA4;
+    font-weight: 600;
+    text-decoration: none;
+  }
+}
+.password-generator{
+  padding: 56px 0 37px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-black-400);
+  color: white;
+  
+  label {
+    text-align: center;
+  }
+  
+  .description{
+    margin: 8px 0;
+  }
+  
+  .title {
+    font-size: 40px;
+  }
+  
+  
+  .options-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+  }
+}
+
+.info-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  
+  & > .info > .info-title{
+    font-weight: 800;
+    font-size: 31px;
+  }
+  
+  &.reversed{
+    flex-direction: row-reverse;
+  }
+}
