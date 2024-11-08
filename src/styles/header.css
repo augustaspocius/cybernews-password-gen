@@ -1,0 +1,21 @@
+.header {
+  background-color: var(--clr-black-400);
+}
+
+.header__body {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 72.5rem;
+  padding: 1.25rem 0;
+}
+
+.header__logo {
+  width: 11.5rem;
+  vertical-align: middle;
+}
+
+@media (max-width: 1160px) {
+  .header__logo {
+    margin: 0 auto;
+  }
+}
